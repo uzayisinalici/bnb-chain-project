@@ -1,10 +1,12 @@
 {
   "name": "hardhat-project",
   "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
     "@nomiclabs/hardhat-ethers": "^2.2.3",
     "@nomiclabs/hardhat-waffle": "^2.0.5",
     "@types/mocha": "^10.0.1",
     "chai": "^4.3.7",
+    "ethereum-waffle": "^4.0.10",
     "ethers": "^5.7.2",
     "hardhat": "^2.13.1"
   },
@@ -100,6 +102,7 @@
     "delayed-stream": "^1.0.0",
     "depd": "^2.0.0",
     "diff": "^5.0.0",
+    "dotenv": "^16.0.3",
     "ecc-jsbn": "^0.1.2",
     "elliptic": "^6.5.4",
     "emittery": "^0.10.0",
@@ -114,7 +117,6 @@
     "eth-ens-namehash": "^2.0.8",
     "ethereum-bloom-filters": "^1.0.10",
     "ethereum-cryptography": "^1.2.0",
-    "ethereum-waffle": "^4.0.10",
     "ethereumjs-abi": "^0.6.8",
     "ethereumjs-util": "^6.2.1",
     "ethjs-unit": "^0.1.6",
